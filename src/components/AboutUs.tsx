@@ -1,6 +1,6 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Code, ArrowLeft, Users, Target, Globe, BookOpen } from 'lucide-react';
+import dr from "/assets/drzafar.jpeg";
 
 const AboutUs = () => {
   return (
@@ -39,12 +39,21 @@ const AboutUs = () => {
           <div className="bg-white rounded-2xl shadow-xl p-8 sm:p-12 space-y-8">
             <div className="text-center space-y-6">
               <div className="w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto">
-                <Code className="h-10 w-10 text-white" />
+                {/* <Code className="h-10 w-10 text-white" /> */}
+                <img 
+                src={dr}
+                alt="dr zafar" />
               </div>
               
               <div className="space-y-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">
+                  Meet Dr Zafar Shahid (Engineering Executive, Silicon Valley, USA)
+                </h2>
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  <span className="font-semibold text-blue-600">iCodeGuru</span> is a dynamic learning platform focused on bridging the gap between academia and the tech industry by offering practical, in-demand, and globally relevant courses.
+                  <span className="font-semibold text-blue-600">iCodeGuru</span> is a groundbreaking initiative dedicated to democratizing education 
+                  worldwide by providing 100% free access
+                  to high-quality learning resources. 
+                  iCode Guru is founded by Dr. Zafar Shahid (Silicon Valley, California).
                 </p>
                 
                 <p className="text-lg text-gray-600 leading-relaxed">
@@ -53,10 +62,10 @@ const AboutUs = () => {
               </div>
 
               <Link
-                to="/register"
+                to="https://www.linkedin.com/in/zafarshahid"
                 className="inline-flex items-center bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 transition-all duration-200 shadow-lg"
               >
-                Join iCodeGuru
+                Connect with him on LinkedIn
               </Link>
             </div>
 

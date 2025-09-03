@@ -10,7 +10,7 @@ const Assignments = () => {
       icon: <div className="w-16 h-16 bg-blue-500 rounded-xl flex items-center justify-center">
         <span className="text-white font-bold text-lg">in</span>
       </div>,
-      detailsLink: "https://docs.google.com/document/d/assignment-01-details",
+      detailsLink: "https://docs.google.com/document/d/1rLREBcYbFDGY4ADA0Ir54ZVq2pAcWgGwBuVAUXjOuIg/edit?tab=t.0#heading=h.jm555u21o2rn",
       submissionLink: "https://forms.google.com/assignment-01-submission",
       bgColor: "from-blue-500 to-blue-600",
       hoverColor: "hover:from-blue-600 hover:to-blue-700"

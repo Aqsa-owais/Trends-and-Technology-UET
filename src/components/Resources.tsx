@@ -4,7 +4,7 @@ import { Code, ArrowLeft, FileSpreadsheet, ExternalLink,} from 'lucide-react';
 
 const Resources = () => {
   // Replace with your actual Excel sheet link
-  const RECORDING_SHEET_URL = "https://docs.google.com/spreadsheets/d/your-sheet-id/edit";
+  const RECORDING_SHEET_URL = "https://docs.google.com/spreadsheets/d/1yJ2gAJ8CehLzu-a0USdkUy-4cAyNmj9dKt-jmsoIJog/edit?gid=0#gid=0";
 
   const handleSheetClick = () => {
     window.open(RECORDING_SHEET_URL, '_blank');

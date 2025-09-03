@@ -15,6 +15,7 @@ import {
 import ayesha from "/assets/ayesha.jpg";
 import faizan from "/assets/faizan.jpg";
 import hamza from "/assets/hamza.jpg";
+import ai from "/assets/aii.jpg";
 const Homepage = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -137,133 +138,74 @@ const Homepage = () => {
                   Facebook Lactures
                   <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-200" />
                 </Link>
-                <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-xl font-semibold text-lg hover:border-gray-400 hover:bg-gray-50 transition-all duration-200">
-                  <Link to="https://www.linkedin.com/in/zafarshahid/">
-                    iCodeGuru Founder
-                  </Link>
+                <button className="text-gray-700 px-8 py-4 rounded-xl font-semibold text-lg hover:border-gray-400 hover:bg-gray-50 transition-all duration-200">
+                  
                 </button>
               </div>
             </div>
 
             <div className="relative">
-              <div className="bg-gradient-to-br from-blue-500 to-purple-500 rounded-2xl p-8 shadow-2xl transform rotate-3 hover:rotate-1 transition-transform duration-300">
-                <div className="bg-white rounded-xl p-6 space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center">
-                      <Code className="h-6 w-6 text-blue-600" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-gray-900">
-                        Interactive Coding
-                      </h3>
-                      <p className="text-sm text-gray-600">Learn by doing</p>
-                    </div>
-                  </div>
-                  <div className="space-y-2">
-                    <div className="bg-gray-100 rounded-lg h-3"></div>
-                    <div className="bg-blue-200 rounded-lg h-3 w-3/4"></div>
-                    <div className="bg-purple-200 rounded-lg h-3 w-1/2"></div>
-                  </div>
-                </div>
-              </div>
+              <img
+                src={ai}
+                alt="Latest Trend in Technology 2025"
+                className="rounded-2xl shadow-2xl w-full h-auto"
+              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* About Section */}
+      {/* Students Reviews Section */}
       <section className="py-16 sm:py-24 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="w-full">
           <div className="text-center space-y-4 mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              About iCodeGuru
-            </h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              iCodeGuru is a comprehensive programming learning platform
-              designed to help students master coding skills from beginner to
-              advanced levels. We provide structured courses, hands-on projects,
-              and personalized mentorship to ensure your success in the tech
-              industry.
-            </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
               Students Reviews
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Grid without side spacing */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
             <div className="group bg-gray-50 p-6 rounded-2xl hover:bg-blue-50 transition-colors duration-300 text-center">
-              <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 transition-colors duration-300">
-                {/* <BookOpen className="h-8 w-8 text-blue-600" /> */}
-                <img
-                  src={ayesha}
-                  alt="Ayesha Rana"
-                  className="w-20 h-20 rounded-full flex items-center justify-center mx-auto"
-                />
-              </div>
+              <img
+                src={ayesha}
+                alt="Ayesha Rana"
+                className="w-20 h-20 rounded-full mx-auto mb-4"
+              />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 Ayesha Rana
               </h3>
               <p className="text-gray-600 text-sm">
                 Huge appreciation to iCodeGuru for providing an exceptional
-                platform to learn and grow! As a university student, I'm
-                learning a tremendous amount from your resources, and I'm
-                grateful for the opportunity to expand my skills and knowledge.
-                Your dedication to sharing expertise is truly commendable. Thank
-                you for empowering individuals like me with the skills and
-                confidence to succeed. Keep shining! I'm also excited to connect
-                with like-minded professionals and share my learnings on
-                LinkedIn, further amplifying the impact of iCodeGuru's efforts!
+                platform...
               </p>
             </div>
 
             <div className="group bg-gray-50 p-6 rounded-2xl hover:bg-purple-50 transition-colors duration-300 text-center">
-              <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-purple-200 transition-colors duration-300">
-                {/* <Laptop className="h-8 w-8 text-purple-600" /> */}
-                <img
-                  src={faizan}
-                  alt=" faizan"
-                  className="w-20 h-20 rounded-full flex items-center justify-center mx-auto"
-                />
-              </div>
+              <img
+                src={faizan}
+                alt="M.Faizan Sajid"
+                className="w-20 h-20 rounded-full mx-auto mb-4"
+              />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 M.Faizan Sajid
               </h3>
               <p className="text-gray-600 text-sm">
-               {"I'm really happy with the help I got from ICodeGuru. They showed me a clear path to get scholarships in the US and taught me how to make my LinkedIn profile look great. I feel more confident now about my future. I highly recommend ICodeGuru to anyone who needs guidance."}
+                I'm really happy with the help I got...
               </p>
             </div>
 
             <div className="group bg-gray-50 p-6 rounded-2xl hover:bg-emerald-50 transition-colors duration-300 text-center">
-              <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-emerald-200 transition-colors duration-300">
-                {/* <Users className="h-8 w-8 text-emerald-600" /> */}
-                 <img
-                  src={hamza}
-                  alt=" faizan"
-                  className="w-20 h-20 rounded-full flex items-center justify-center mx-auto"
-                />
-              </div>
+              <img
+                src={hamza}
+                alt="Hamza Murtaza"
+                className="w-20 h-20 rounded-full mx-auto mb-4"
+              />
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 Hamza Murtaza
               </h3>
               <p className="text-gray-600 text-sm">
-                {"I would like to extend my appreciation to the organizers of the 'Latest Trends in Technology' session by iCodeGuru, MEP, and UET for initiating such a forward-thinking and impactful program. This initiative is thoughtfully designed to enhance students' understanding of current technological trends and prepare them for competitive opportunities, including fully funded scholarships in the USA."}
-              </p>
-            </div>
-
-            <div className="group bg-gray-50 p-6 rounded-2xl hover:bg-orange-50 transition-colors duration-300 text-center">
-              <div className="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-colors duration-300">
-                {/* <Trophy className="h-8 w-8 text-orange-600" /> */}
-                <img
-                  src={hamza}
-                  alt=" faizan"
-                  className="w-20 h-20 rounded-full flex items-center justify-center mx-auto"
-                />
-              </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                Hamza Murtaza
-              </h3>
-              <p className="text-gray-600 text-sm">
-                {"Overall, this is a commendable effort to empower students with the knowledge and tools needed to succeed on an international scale. I look forward to the continued success and positive outcomes of this initiative."}
+                {"I would like to extend my appreciation..."}
               </p>
             </div>
           </div>

@@ -192,12 +192,12 @@ const Homepage = () => {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="group bg-gray-50 p-6 rounded-2xl hover:bg-blue-50 transition-colors duration-300 text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 transition-colors duration-300">
+              <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-blue-200 transition-colors duration-300">
                 {/* <BookOpen className="h-8 w-8 text-blue-600" /> */}
                 <img
                   src={ayesha}
                   alt="Ayesha Rana"
-                  className="w-full h-full object-cover"
+                  className="w-20 h-20 rounded-full flex items-center justify-center mx-auto"
                 />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
@@ -217,12 +217,12 @@ const Homepage = () => {
             </div>
 
             <div className="group bg-gray-50 p-6 rounded-2xl hover:bg-purple-50 transition-colors duration-300 text-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-purple-200 transition-colors duration-300">
+              <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-purple-200 transition-colors duration-300">
                 {/* <Laptop className="h-8 w-8 text-purple-600" /> */}
                 <img
                   src={faizan}
                   alt=" faizan"
-                  className="w-full h-full object-cover"
+                  className="w-20 h-20 rounded-full flex items-center justify-center mx-auto"
                 />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
@@ -234,12 +234,12 @@ const Homepage = () => {
             </div>
 
             <div className="group bg-gray-50 p-6 rounded-2xl hover:bg-emerald-50 transition-colors duration-300 text-center">
-              <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-emerald-200 transition-colors duration-300">
+              <div className="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-emerald-200 transition-colors duration-300">
                 {/* <Users className="h-8 w-8 text-emerald-600" /> */}
                  <img
                   src={hamza}
                   alt=" faizan"
-                  className="w-full h-full object-cover"
+                  className="w-20 h-20 rounded-full flex items-center justify-center mx-auto"
                 />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
@@ -251,12 +251,12 @@ const Homepage = () => {
             </div>
 
             <div className="group bg-gray-50 p-6 rounded-2xl hover:bg-orange-50 transition-colors duration-300 text-center">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-colors duration-300">
+              <div className="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-orange-200 transition-colors duration-300">
                 {/* <Trophy className="h-8 w-8 text-orange-600" /> */}
                 <img
                   src={hamza}
                   alt=" faizan"
-                  className="w-full h-full object-cover"
+                  className="w-20 h-20 rounded-full flex items-center justify-center mx-auto"
                 />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">

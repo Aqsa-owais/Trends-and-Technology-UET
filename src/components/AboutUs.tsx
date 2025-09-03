@@ -42,7 +42,8 @@ const AboutUs = () => {
                 {/* <Code className="h-10 w-10 text-white" /> */}
                 <img 
                 src={dr}
-                alt="dr zafar" />
+                alt="dr zafar" 
+                className='w-20 h-20 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mx-auto"'/>
               </div>
               
               <div className="space-y-4">
